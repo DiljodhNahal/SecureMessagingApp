@@ -11,7 +11,7 @@ Requirements:
 Steps:
 1. `cd server`
 2. `source venv/scripts/activate`
-3. `python3 -m pip install -r requirements.txt`
+3. `pip install -r requirements.txt`
 4. `uvicorn main:app --reload`
 5. Visit `localhost:8000/status`
 
